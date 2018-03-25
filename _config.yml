@@ -1,3 +1,6 @@
 title: "Ujjwal Kanth"
-description: '<p>Software Engineer (at) Unbxd</p><p>IR, Golang, Distributed Systems</p><ul> <li><a href="http://twitter.com/uknth"><i class="fab fa-twitter fa-lg"></i></a></li><li><a href="http://github.com/uknth"><i class="fab fa-github fa-lg"></i></a></li><li><a href="http://facebook.com/ujjwal.kanth"><i class="fab fa-facebook fa-lg"></i></a></li></ul>'
+description: '<p>Software Engineer (at) Unbxd</p><p>IR, Golang, Distributed Systems</p>'
 theme: jekyll-theme-minimal
+github:
+  is_user_page: true
+  is_project_page: false
