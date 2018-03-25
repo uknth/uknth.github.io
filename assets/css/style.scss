@@ -28,4 +28,5 @@ footer ul a strong { font-size: 14px; display: block; color: #222; }
 footer ul.pages { background: none; height: auto; margin-top:100px; width: auto; border:none;}
 footer li.pages { float: none; border-right:none; border-bottom:1px solid #e0e0e0; width: 250px; height: auto;}
 footer li.pages:last-child { border-bottom: none; }
+footer li.pages:first-child {border-bottom: 1px solid #e0e0e0 !important;}
 footer li.pages a.pages {font-size:15px; height: auto; }
