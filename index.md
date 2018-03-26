@@ -1,80 +1,35 @@
-## Software Engineer (at) Unbxd
----
-Jan 2014 - Present
+## Contact
 
-### Projects
 
-#### Distributed Hierarchal Config Backend
-Solves the problem of configuration stored across various components in a distributed system. 
-    
-**Features**   
-
-- Provides a beautified wrapper on top of Graph store (Dgraph)
-- Ability to watch for changes in the config tree
-- Bulk store complete config files
-- Exporters for common file formats
-- Clients in Java, Go & Python
-- Simpler compared to using Consul/Etcd
-
-#### Promotion Engine (Micro)
-Microservice to manage promotions applied on any given search term
-
-#### Query Analysis Engine (Micro)
-Microservice for query analysis.
-
-- Figures out the most "relevant" term from dataset
-- Adds related terms from dataset
-- Converts into custom grammar
-- Auto Phrase formation
-- Pluggable, based on solr.analysis package
-
-#### Solr Plugin (Solr Plugin)
-Plugin for solr which decodes the query sent to it and returns the result
-- Decodes custom query grammar
-- Custom component for pinning documents to certain position
-- Custom component for generating slots where a group of product can be featured
-
-#### Pass-Through Caching Failover (Micro)
-Custom pass through caching failover layer for production stack
-- Always allows the request to be served from the stack
-- Caches each request if it succeeds 
-- Acts as a failover if rest of the stack fails
+------------------------------------- | ------------------------------------------- 
+<i class="fas fa-envelope fa-lg"></i> | uknth@outlook.com
+<i class="fas fa-phone fa-lg"></i> | +91 9535974079
+<i class="fab fa-internet-explorer fa-lg"></i> | <a class="link" href="https://uknth.me/about-me">uknth.me/about-me</a>
 
 <br/>
-## Product Engineer (at) Parablu Systems
----
-May 2013 - Dec 2013
 
-#### Full Stack UI
+## Social
 
-- Enhanced the performance of our front end UI by remodeling the in-house PHP framework
-    - Used more of client-side code (JS)
-    - Improved static content generation performance
-- Modified & remodeled lots of backend API’s to increase the overall performance
+------------------------------------- | ------------------------------------------- 
+<img src="/assets/img/hn.svg" height="18px" width="18px" style="opacity:0.9;"/>| <a class ="link" href="https://hashnode.com/@uknth">hashnode.com/@uknth</a>
+<i class="fab fa-facebook fa-lg"></i> | <a class="link" href="https://www.facebook.com/ujjwal.kanth">facebook.com/ujjwal.kanth</a>
+<i class="fab fa-instagram fa-lg"></i> | <a class="link" href="https://www.instagram.com/_uknth/">instagram.com/_uknth</a>
+<i class="fab fa-twitter fa-lg"></i> | <a class="link" href="https://twitter.com/uknth">twitter.com/uknth</a>
+<i class="fab fa-linkedin fa-lg"></i> | <a class="link" href="https://www.linkedin.com/in/ujjwalkanth/">linkedin.com/in/ujjwalkanth</a>
 
-#### HTML5 Mobile App
-- Angular JS app for IOS & Android
-- Phonegap plugins
-
-#### Internal Tools
-- Internal CRM tool 
-- Internal Analytics tracker for traffic analysis
-     
-<br/>
-## Software Engineer (at) Manhattan Associates
----
-July 2012 - May 2013
-
-#### Warehouse Management
-- Developed & Maintained multiple versions of SCM product
-- Performance tuning. eg: unify multi-stage wave operation to single-stage
-- Managed Integration & Build Verification Testing 
 
 <br/>
-## Assistant System Engineer (at) Tata Consultancy Services
----
-Aug 2010 - Jul 2012
+## Open Source
 
-#### (at) London Clearning House
-- Manatained customizations for the client on TCS Bancs
-- Enhancements in Equity Management (Custom C++/VMS component)
+------------------------------------- | ------------------------------------------- | -------------------------------
+Writer | <a href="https://github.com/uknth/writer" class="link">uknth/writer</a> | Rotating File Writer (implements io.Writer)
+GoMail | <a href="https://github.com/uknth/gomail" class="link">uknth/gomail</a> | Wrapper around smtp.SendMail simplying mail sending
+RVim | <a href="https://github.com/uknth/rvim" class="link">uknth/rvim</a> | Vim Runtime for Sane 
+
+<br/>
+## Employers
+
+- <a class="link" href="https://www.linkedin.com/company/unbxd-inc">Unbxd Inc.</a> (current)
+- <a class="link" href="https://www.linkedin.com/company/2576183/">Parablu Inc. </a>
+- <a class="link" href="https://www.linkedin.com/company/4376/">Manhattan Associates</a>
+- <a class="link" href="https://www.linkedin.com/company/1353/">Tata Consultancy Services</a>
