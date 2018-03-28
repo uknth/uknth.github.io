@@ -15,15 +15,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
+        <div class="main-header">
+            <img src="/assets/img/pic.png" class="main-pic"/>
+            <a class="main-link" href="{{ site.github.url }}"> <h1>{{ site.title | default: site.github.repository_name }}</h1> </a>
+        </div>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <ul class="pages">
-          <li class="pages"><a class="pages" href="/about">About Me</a></li>
-          <li class="pages"><a class="pages" href="/work">Work</a></li>
-          <li class="pages"><a class="pages" href="/edu">Education</a></li>
-          <li class="pages"><a class="pages" href="/">Links</a></li>
-          <li class="pages"><a class="pages" href="/posts">Posts</a></li>
-        </ul>
       </header>
       <section>
 
@@ -31,6 +27,14 @@
 
       </section>
       <footer>
+        <ul class="pages">
+          <li class="pages"><a class="pages" href="/about">About Me</a></li>
+          <li class="pages"><a class="pages" href="/work">Work</a></li>
+          <li class="pages"><a class="pages" href="/edu">Education</a></li>
+          <li class="pages"><a class="pages" href="/">Links</a></li>
+          <li class="pages"><a class="pages" href="/posts">Posts</a></li>
+        </ul>
+
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
