@@ -2,6 +2,15 @@
 ---
 Jan 2014 - Present
 
+### Highlights
+- Design of Query Processing Pipeline 
+- Moved all the features, originally part of large monolith (modified Solr) to Microservices
+- Introduced Kubernetes as orchestrator for Microservices
+- Custom analysis chain which augments the query with our grammar, decoded by Solr to enhance result
+- Multiple microservices which augments features in "Request" & "Response" pipeline
+- Failover Reverse Proxy, written to act as Pass Through for valid response, and to kick in if there is an error
+- Mesos driven Task layer, with library for catalog processing
+
 ### Projects
 
 #### Distributed Hierarchal Config Backend
