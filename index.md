@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Contact
 
 
@@ -25,6 +29,16 @@
 Writer | <a href="https://github.com/uknth/writer" class="link">uknth/writer</a> | Rotating File Writer (implements io.Writer)
 GoMail | <a href="https://github.com/uknth/gomail" class="link">uknth/gomail</a> | Wrapper around smtp.SendMail simplying mail sending
 RVim | <a href="https://github.com/uknth/rvim" class="link">uknth/rvim</a> | Vim Runtime for Sane 
+
+<br/>
+## Posts
+<ul class="link">
+  {% for post in site.posts limit:20 %}
+    <li class="link">
+      <a class="link" href="{{ post.url }}">- {{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 <br/>
 ## Employers
