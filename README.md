@@ -1,3 +1,3 @@
 # Personal Website
-Link: [uknth.me](uknth.me)
+Link: [uknth.me](http://uknth.me)
 
