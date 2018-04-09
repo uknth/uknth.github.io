@@ -12,6 +12,11 @@ layout: default
 
 <br/>
 
+## Resume
+
+------------------------------------- | ------------------------------------------- 
+<i class="fas fa-paperclip fa-lg"></i> | <a class="link" href="/assets/file/resume.pdf">uknth.me/resume</a>
+
 ## Social
 
 ------------------------------------- | ------------------------------------------- 
