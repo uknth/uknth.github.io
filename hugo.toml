@@ -6,8 +6,6 @@ theme = "artemis"
 summaryLength = 15
 enableEmoji = true
 
-
-
 [menus]
 [[menus.main]]
     name = 'Home'
@@ -27,8 +25,6 @@ enableEmoji = true
     weight = 30
     pre = '<i class="fa fa-file"></i>'
 
-
-
 [markup]
   [markup.highlight]
     anchorLineNos = false
@@ -45,8 +41,6 @@ enableEmoji = true
     style = 'github'
     tabWidth = 4
 
-
-
 [taxonomies]
   tag = 'tags'
 
@@ -61,8 +55,11 @@ noteworthies = [
     "Pink Floyd",
     "Schecter Demon 6 🎸",
 ]
+
 description = ""
+
 email = "mail@uknth.me"
+
 github = "uknth"
 mastodon = "https://c.im/@uknth"
 keywords = "blog, minimal, technical"
