@@ -1,0 +1,90 @@
+body {
+  color: #222;
+  font-family: "M PLUS 1 Code";
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #aaa;
+  margin-top: 1rem;
+}
+
+h1 {
+  --pico-font-family: "M PLUS 1 Code";
+}
+
+h2 {
+  --pico-font-family: "M PLUS 1 Code";
+}
+
+h3 {
+  --pico-font-family: "M PLUS 1 Code";
+}
+
+h4 {
+  --pico-font-family: "M PLUS 1 Code";
+}
+
+nav.nw ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  -moz-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+nav.nw li {
+  white-space: nowrap;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  -webkit-flex: auto;
+  -moz-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+
+  background-color: #e5e5e5;
+  margin: 5px;
+
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  max-width: max-content;
+  min-width: max-content;
+}
+
+.catlabel {
+  white-space: nowrap;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  -webkit-flex: auto;
+  -moz-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+
+  background-color: #e5e5e5;
+  margin: 5px;
+
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  max-width: max-content;
+  min-width: max-content;
+  text-decoration: none;
+}
