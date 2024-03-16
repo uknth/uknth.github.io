@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article>
+  {{ .Content }}
+</article>
+<div class="container">
+  <nav class="nw">
+    <ul>
+      {{ range $i, $p := site.Params.noteworthies }}
+      <li>{{ $p }}</li>
+      {{end}}
+    </ul>
+  </nav>
+</div>
+{{ end }}

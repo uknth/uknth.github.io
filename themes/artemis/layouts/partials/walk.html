@@ -1,0 +1,12 @@
+<p>{{ . }}</p>
+<ul>
+    {{ range .Pages }}
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <p>something</p>
+        {{ if .Pages }}
+        {{ partial "walk.html" . }}
+        {{ end }}
+    </li>
+    {{ end }}
+</ul>

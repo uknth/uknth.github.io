@@ -1,0 +1,14 @@
+name = 'artemis'
+license = 'MIT'
+description = 'Minimal theme for uknth.me'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/uknth/uknth.github.io'
+
+# Taxonomy terms
+tags = ['blog', 'personal']
+
+# If the theme has a single author
+[author]
+  name = 'Ujjwal Kanth'
+  homepage = 'uknth.me'
