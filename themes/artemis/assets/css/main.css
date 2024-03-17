@@ -1,6 +1,6 @@
 body {
   color: #222;
-  font-family: "M PLUS 1 Code";
+  font-family: "Exo 2";
   line-height: 1.5;
   margin: 1rem;
   max-width: 768px;
@@ -17,19 +17,19 @@ footer {
 }
 
 h1 {
-  --pico-font-family: "M PLUS 1 Code";
+  --pico-font-family: "Exo 2";
 }
 
 h2 {
-  --pico-font-family: "M PLUS 1 Code";
+  --pico-font-family: "Exo 2";
 }
 
 h3 {
-  --pico-font-family: "M PLUS 1 Code";
+  --pico-font-family: "Exo 2";
 }
 
 h4 {
-  --pico-font-family: "M PLUS 1 Code";
+  --pico-font-family: "Exo 2";
 }
 
 nav.nw ul {
@@ -87,4 +87,21 @@ nav.nw li {
   max-width: max-content;
   min-width: max-content;
   text-decoration: none;
+}
+
+ul.social li {
+  display: inline;
+  padding: 0px;
+}
+
+ul.social li a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+ul.social li a:hover {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  max-width: max-content;
+  min-width: max-content;
 }
