@@ -43,8 +43,10 @@ Are you hurt? Yes, indeed you are! But What can you do? Can't you walk, talk or 
 So just f*** the world! Are you going to get anything from that? No. Hell no. Never.
 
 Some great man said.
+
 > "Selfless is sacrifice, Selfish is love!"
-Indeed it is. You love yourself, then and only then you can think of lovin anybody or anything. Success isn't for the weak and timids. It's built on the very foundation of failures after failures.
+
+Indeed it is. You love yourself, then and only then you can think of loving anybody or anything. Success isn't for the weak and timid. It's built on the very foundation of failures after failures.
 
 But only that success is cherished which has its relevance because the sweetest thin is not the honey rather it's the sweat of success.
 
