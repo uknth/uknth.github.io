@@ -21,9 +21,9 @@ enableEmoji = true
 
 [[menus.main]]
     name = 'Resume'
-    pageRef = '/resume'
     weight = 30
     pre = '<i class="fa fa-file"></i>'
+    url = 'https://www.icloud.com/iclouddrive/07anP1oFpwkGow6eJpVKaSSEA#ujjwal'
 
 [markup]
   [markup.highlight]
