@@ -28,7 +28,7 @@ title = "Resume"
 - Custom Edge Servers handling index-co-location, inter-region routing.
 - Query analysis engine using custom grammar protocol.
 - Low latency service for incoming request classification.
-- Standarized libraries used at Unbxd (eg: [https://github.com/unbxd/go-base](https://github.com/unbxd/go-base)).
+- Standardized libraries used at Unbxd (eg: [https://github.com/unbxd/go-base](https://github.com/unbxd/go-base)).
 - Project Starter codebases for Java & Go.
 - Inter region event communication using [NATS.io](https://nats.io/)
 
