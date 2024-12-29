@@ -1,13 +1,12 @@
 +++
 title = "Resume"
 +++
-# Ujjwal Kanth
 
 [Download Link](https://www.icloud.com/iclouddrive/07anP1oFpwkGow6eJpVKaSSEA#ujjwal)
 
 ## Highlights
 
-<details>
+<details open>
 <summary>Designed & built Unbxd’s tech stack from ground up</summary>
 
 - Query (Search/Recommendations) Pipeline, serving 160+ million requests daily.
@@ -45,7 +44,7 @@ title = "Resume"
 </details>
 
 <details>
-<summary>Builds & maintains self-hosted homelab, custom dofiles</summary>
+<summary>Build & maintains self-hosted homelab, custom dofiles</summary>
 
 - Homelab using ansible [https://github.com/uknth/homelab](https://github.com/uknth/homelab)
 - Dotfiles [https://github.com/uknth/dotfiles](https://github.com/uknth/dotfiles)
