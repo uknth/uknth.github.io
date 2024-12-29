@@ -56,7 +56,7 @@ But only that success is cherished which has its relevance because the sweetest 
 
 I have learned one thing from my life, it's never the end. Never.
 
-And when u ponder on this dangerous irrestible pastime.
+And when u ponder on this dangerous irresistible pastime.
 And you took a heavenly ride through silence.
 That is when you kill the past and come back to life!
 

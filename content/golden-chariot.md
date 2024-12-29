@@ -17,7 +17,7 @@ One look at the scene and I came to a conclusion that it must have been the ange
 
 Oh no, I don’t intend to say that it was ‘her’ mistake, it wasn’t, after all she is ‘woman’, how can it be her mistake.
 
-Nevertheless, when there was a crash about twenty of ‘her’ well wishers, who were having chat and gol-guppa on the road stall, came rushing to her aid. They lifted her and asking all sorts of questions about her well being, not caring about a young man lying on the road. When somehow ‘he’ managed to get back to his feet, our little angle came rushing to him accusing of driving rashly, and hell broke loose there. 
+Nevertheless, when there was a crash about twenty of ‘her’ well wishers, who were having chat and golguppa on the road stall, came rushing to her aid. They lifted her and asking all sorts of questions about her well being, not caring about a young man lying on the road. When somehow ‘he’ managed to get back to his feet, our little angle came rushing to him accusing of driving rashly, and hell broke loose there. 
 
 All ‘her’ well wishers found it utterly satisfying to beat that poor mortal who had offended their goddess, but mind you that mortal was just ‘driving on a straight road’, but made a mistake of not noticing great pink chariot coming out of a thin road.
 
