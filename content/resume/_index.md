@@ -3,8 +3,10 @@ title = "Resume"
 +++
 
 [Download Link](https://www.icloud.com/iclouddrive/07anP1oFpwkGow6eJpVKaSSEA#ujjwal)
+[Github Profile](https://github.com/uknth)
 
 ## Highlights
+
 
 <details open>
 <summary>Designed & built Unbxd’s tech stack from ground up</summary>
