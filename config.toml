@@ -29,7 +29,7 @@ main_menu = [
     {url = "/categories", name = "Categories"},
     {url = "/tags", name = "Tags"},
     {url = "/about", name = "About"},
-    {url = "/resume", name = "Resume"},
+    {url = "/work", name = "Work"},
 ]
 
 
