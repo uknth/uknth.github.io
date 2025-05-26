@@ -2,7 +2,7 @@
 title = "Resume"
 +++
 
-[Download Link](https://www.icloud.com/iclouddrive/07anP1oFpwkGow6eJpVKaSSEA#ujjwal)
+[Download Link](/files/resume.pdf)
 [Github Profile](https://github.com/uknth)
 
 ## Highlights
