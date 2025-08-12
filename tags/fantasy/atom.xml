@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - fantasy</title>
+    <link rel="self" type="application/atom+xml" href="https://uknth.me/tags/fantasy/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://uknth.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2023-11-01T15:49:40+00:00</updated>
+    <id>https://uknth.me/tags/fantasy/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Book Review: Throne of Glass by Sarah J Maas</title>
+        <published>2023-11-01T15:49:40+00:00</published>
+        <updated>2023-11-01T15:49:40+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://uknth.me/book-review-thrones-of-glass/"/>
+        <id>https://uknth.me/book-review-thrones-of-glass/</id>
+        
+        <summary type="html">&lt;p&gt;When I was recommended this book by a friend, I expected to see a rich world with grand adventure. A modern version of Lord of the Rings, The Wheel of Time, or something similar. A rich high fantasy with interesting characters and a well-written plot.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
