@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title> - Personal</title>
+    <link rel="self" type="application/atom+xml" href="https://uknth.me/categories/personal/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://uknth.me"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2011-04-23T11:47:40+00:00</updated>
+    <id>https://uknth.me/categories/personal/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Golden Chariot</title>
+        <published>2011-04-23T11:47:40+00:00</published>
+        <updated>2011-04-23T11:47:40+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://uknth.me/golden-chariot/"/>
+        <id>https://uknth.me/golden-chariot/</id>
+        
+        <summary type="html">&lt;p&gt;My first reaction when I see a girl driving is to pull over, you never know what might happen. When even the gods are wary of the fury of fairer sex, its utterly ridiculous to question their might.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Demise of Knowledge</title>
+        <published>2009-03-13T10:47:40+00:00</published>
+        <updated>2009-03-13T10:47:40+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://uknth.me/demise-of-knowledge/"/>
+        <id>https://uknth.me/demise-of-knowledge/</id>
+        
+        <summary type="html">&lt;p&gt;Every one of us has faced the wrath of endless examination nights, endless courses and never-ending syllabi. Scribbling my notes on my project a thought swept past me and while deciphering some real complex equations of probability, I realized that despite all my efforts and diligence to know the subject and to understand it, I know nothing of this vast universe of knowledge!&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Coming Back To Life</title>
+        <published>2008-12-19T09:14:40+00:00</published>
+        <updated>2008-12-19T09:14:40+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://uknth.me/coming-back-to-life/"/>
+        <id>https://uknth.me/coming-back-to-life/</id>
+        
+        <summary type="html">&lt;p&gt;It&#x27;s almost 6 times that I have deleted what I wrote and every time I have thought of something or the other.&lt;&#x2F;p&gt;
+</summary>
+        
+    </entry>
+</feed>
