@@ -5,9 +5,9 @@ description: >-
 baseurl: ""
 url: "https://uknth.me"
 
-theme: minima
-minima:
-  skin: classic
+theme: jekyll-theme-minimal
+
+logo: "https://github.com/uknth.png"
 
 author:
   name: Ujjwal Kanth
@@ -26,9 +26,13 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+paginate: 10
+paginate_path: "/page:num/"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Exclude from build
 exclude:
