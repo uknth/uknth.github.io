@@ -1,5 +1,9 @@
 *.lock
 .vscode
-public/*
+_site/
+.bundle/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
 
 *frontmatter*

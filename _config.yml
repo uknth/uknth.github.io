@@ -1,0 +1,40 @@
+title: "> uknth.me"
+email: mail@uknth.me
+description: >-
+  Personal website of Ujjwal Kanth — writing, notes, and occasional opinions.
+baseurl: ""
+url: "https://uknth.me"
+
+theme: minima
+minima:
+  skin: classic
+
+author:
+  name: Ujjwal Kanth
+
+excerpt_separator: <!--more-->
+
+# Navigation pages (order matters)
+header_pages:
+  - about.md
+  - work.md
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .bundle
+  - vendor
+  - cliff.toml
+  - CHANGELOG.md
