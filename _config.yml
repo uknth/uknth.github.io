@@ -9,8 +9,7 @@ theme: jekyll-theme-minimal
 
 logo: "https://github.com/uknth.png"
 
-author:
-  name: Ujjwal Kanth
+author: Ujjwal Kanth
 
 excerpt_separator: <!--more-->
 
