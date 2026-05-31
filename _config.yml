@@ -15,7 +15,7 @@ excerpt_separator: <!--more-->
 
 # Navigation pages (order matters)
 header_pages:
-  - about.md
+  - posts/index.html
   - work.md
 
 markdown: kramdown
@@ -26,7 +26,7 @@ kramdown:
   syntax_highlighter: rouge
 
 paginate: 10
-paginate_path: "/page:num/"
+paginate_path: "/posts/page:num/"
 
 plugins:
   - jekyll-feed

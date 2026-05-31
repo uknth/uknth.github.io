@@ -4,55 +4,79 @@ title: Work
 permalink: /work/
 ---
 
-[Download Resume](/files/resume.pdf) &nbsp;|&nbsp; [GitHub Profile](https://github.com/uknth)
+<p>
+  <a href="/files/resume.pdf" target="_blank">Download Resume</a> &nbsp;·&nbsp;
+  <a href="https://github.com/uknth" target="_blank" rel="noopener">GitHub</a>
+</p>
 
-## Highlights
+---
 
-<details open>
-<summary>Designed & built Unbxd's tech stack from ground up</summary>
+## Harness — Principal Engineer
+**Oct 2025 – Present**
 
-- Query (Search/Recommendations) Pipeline, serving 160+ million requests daily.
-- Analytics Pipeline, handling 170+ million requests daily.
-- Ingestion Pipeline, handling 1TB data daily.
-- Inter-Region, inter-datacenter communication for pipelines.
+Still relatively new here, but already shipped something I'm pretty happy with.
 
-</details>
-<details>
-<summary>Designed AI & ML Pipeline</summary>
+**Global Notification Service for Feature Flags**
 
-- Datalake built on top of S3 & Parquet.
-- Custom Orchestrator on top of Kubeflow + Kubernetes.
+Built an SSE-based notification service that holds ~7 million concurrent connections for the Split.io SDK — delivering real-time feature flag updates with no SDK changes required. Replaced [Ably](https://ably.com) as the vendor, cutting costs by over 60%.
 
-</details>
-<details>
-<summary>Contributor to multiple services currently in production</summary>
+The fun parts: thundering herd on mass reconnect, fan-out delivery guarantees at scale, zero-downtime rollout on a live production system. Stack: Go, NATS, ZeroMQ, inter-service communication over Unix Domain Sockets.
 
-- Custom Edge Servers handling index-co-location, inter-region routing.
-- Query analysis engine using custom grammar protocol.
-- Low latency service for incoming request classification.
-- Standardized libraries used at Unbxd (eg: [https://github.com/unbxd/go-base](https://github.com/unbxd/go-base)).
-- Project Starter codebases for Java & Go.
-- Inter region event communication using [NATS.io](https://nats.io/)
+Next up: agentic AI. Broad scope, which is how I like it.
 
-</details>
+---
 
-<details>
-<summary>Other contributions</summary>
+## Unbxd / Netcore — 11 years, 8 months
+**Jan 2014 – Oct 2025**
 
-- Gitops based CI/CD pipeline for service deployment using [Flux CD](https://fluxcd.io/)
-- Adoption of Protobuf as communication standard across the stack (In Progress).
-- Serves as chief arbitrator on Architecture Review Board at Unbxd
+Unbxd is a Search & Discovery platform for e-commerce. I joined as a Software Engineer and left as Director of Engineering and Chief Architect — which in practice meant I wore every hat at least once.
 
-</details>
+### Principal Architect *(Jan 2022 – Oct 2025)*
 
-<details>
-<summary>Build & maintains self-hosted homelab, custom dotfiles</summary>
+**Search Index Improvements**
+Improved query performance by 20–30% and cut costs by ~10% by overhauling the search index infrastructure. Introduced a new Query Engine with a custom DSL, custom replica placement and replication, and upgraded the stack to ARM + Apache Solr 9.
 
-- Homelab using ansible [https://github.com/uknth/homelab](https://github.com/uknth/homelab)
-- Dotfiles [https://github.com/uknth/dotfiles](https://github.com/uknth/dotfiles)
+**Data Pipeline v2**
+Next-gen data pipeline built to address scaling problems the old one simply couldn't handle anymore. Apache Flink for streaming, Apache Druid + Superset for warehousing, CockroachDB for reporting. Custom Flink operator for dynamic on-demand scaling brought operational costs down 30%.
 
-</details>
+**Catalog Ingestion Pipeline v3**
+A highly scalable, event-driven pipeline handling everything from a few thousand to hundreds of millions of catalog products. Built on Argo Workflows on Kubernetes with Spot Instances — cost reduction of 40–60% depending on load.
 
-> **Currently working on**
-> - New Reporting Pipeline, using Apache Flink, Clickhouse/Big Query & Apache Superset.
-> - In-House A/B testing Framework based on ideas from [Trustworthy Online Controlled Experiment](https://www.cambridge.org/core/books/trustworthy-online-controlled-experiments/D97B26382EB0EB2DC2019A7A7B518F59)
+**Document Store**
+High-speed catalog storage for query-time retrieval. Cut serving latency by 20% by trimming data overhead in the stack. Built on PostgreSQL + Aerospike.
+
+**Product Features**
+User-level segmentation and merchandising services; traffic classification using Redis + CockroachDB; schema and lifecycle management improvements; analytics reporting on BigQuery.
+
+### Architect *(Jan 2019 – Jan 2022)*
+
+**Inter-Region, Inter-Datacenter Network Topology**
+Designed and built the inter-region communication layer for all microservices — event-driven, using NATS for configuration, metadata, and event propagation. Routing is based on index affinity across regions and datacenters.
+
+**AI Data Pipeline**
+Custom data lake on S3 + Parquet for training ML models. Kubeflow connectors for easy pipeline access.
+
+**Standardisation of Internal Libraries**
+Open-source Go toolkit: [unbxd/go-base](https://github.com/unbxd/go-base). Internal Java starter project and utility library on Quarkus.
+
+### Senior Software Engineer *(Jan 2014 – Jan 2019)*
+
+**Edge Server** — Custom API gateway handling all network operations, observability, and logging.
+
+**Centralised Configuration Management** — Hierarchical rule system across tiers and groups, built on DGraph + NATS.
+
+**Query Pipeline** — Migrated a monolith to microservices. Custom Solr 6.6 fork, custom query parser, similarity class, and search components.
+
+**Other notables** — GitOps-based CD with Flux CD; internal API gateway for inter-team calls; Protobuf + gRPC adoption for inter-service communication (20% latency improvement); contributions across Orchestrators, Query Analysis, Promotions, Analytics Pipeline v1, and more.
+
+---
+
+## Before Unbxd
+
+| Company | Role | Period |
+|---|---|---|
+| Parablu Inc. | Product Engineer | May 2013 – Jan 2014 |
+| Manhattan Associates | Software Engineer | Jul 2012 – May 2013 |
+| Tata Consultancy Services | Asst. Software Engineer | Jul 2010 – Jul 2012 |
+
+Full details in the [resume](/files/resume.pdf).
