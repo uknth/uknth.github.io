@@ -80,3 +80,16 @@ Open-source Go toolkit: [unbxd/go-base](https://github.com/unbxd/go-base). Inter
 | Tata Consultancy Services | Asst. Software Engineer | Jul 2010 – Jul 2012 |
 
 Full details in the [resume](/files/resume.pdf).
+
+---
+
+## Skills
+
+<div class="skills-list">
+  <span>Information Retrieval</span>
+  <span>Distributed Systems</span>
+  <span>Architecture Design</span>
+  <span>Engineering Leadership</span>
+  <span>Software As A Service</span>
+  <span>Event Driven Design</span>
+</div>
