@@ -22,7 +22,7 @@ Built an SSE-based notification service that holds ~7 million concurrent connect
 
 The fun parts: thundering herd on mass reconnect, fan-out delivery guarantees at scale, zero-downtime rollout on a live production system. Stack: Go, NATS, ZeroMQ, inter-service communication over Unix Domain Sockets.
 
-Next up: agentic AI. Broad scope, which is how I like it.
+Next up: Agentic AI. 
 
 ---
 
