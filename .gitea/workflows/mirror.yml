@@ -54,7 +54,13 @@ jobs:
           # secret is ever re-added un-encoded.
           printf '%s' "$MIRROR_SSH_KEY" | base64 -d > ~/.ssh/id_mirror 2>/dev/null \
             || printf '%s' "$MIRROR_SSH_KEY" > ~/.ssh/id_mirror
+          # Normalise: drop CRs and make sure the file ends in a newline. OpenSSH
+          # keys fail with "error in libcrypto" without one.
+          tr -d '\r' < ~/.ssh/id_mirror > ~/.ssh/id_mirror.n
+          echo >> ~/.ssh/id_mirror.n
+          mv ~/.ssh/id_mirror.n ~/.ssh/id_mirror
           chmod 600 ~/.ssh/id_mirror
+          echo "secret length: $(printf '%s' "$MIRROR_SSH_KEY" | wc -c) (expect 560 for the b64 form)"
           if ! head -n1 ~/.ssh/id_mirror | grep -q 'BEGIN .*PRIVATE KEY'; then
             echo "MIRROR_SSH_KEY did not yield a private key (checked without printing it)" >&2
             exit 1
