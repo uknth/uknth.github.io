@@ -60,6 +60,9 @@ jobs:
             exit 1
           fi
 
+          # Public fingerprint only; safe to log. Shows which key the job loaded.
+          ssh-keygen -y -f ~/.ssh/id_mirror | ssh-keygen -lf -
+
           # Pin the host keys rather than accept-new: this job pushes a force
           # update to a public repo, so the one thing worth being strict about
           # is which server is being pushed to.
